@@ -1,0 +1,23 @@
+.contact-form { display: grid; gap: 1rem; max-width: 520px; }
+.contact-form__field { display: grid; gap: 0.3rem; }
+.contact-form__label { font-weight: 600; }
+.contact-form__input {
+  font: inherit;
+  padding: 0.6rem;
+  border: 1px solid currentColor;
+  border-radius: 0.4rem;
+  background: var(--color-fondo);
+  color: var(--color-texto);
+}
+.contact-form__error { margin: 0; color: var(--color-primario); font-weight: 600; }
+.contact-form__button {
+  font: inherit;
+  font-weight: 600;
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: var(--color-primario);
+  color: var(--color-fondo);
+  cursor: pointer;
+}
+.contact-form__feedback { margin: 0; font-weight: 600; }
