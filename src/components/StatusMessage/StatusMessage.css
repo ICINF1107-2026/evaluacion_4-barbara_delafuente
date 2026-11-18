@@ -1,0 +1,2 @@
+.status { padding: 0.8rem 1rem; border-radius: 0.5rem; background: var(--color-tarjeta); }
+.status--error { border: 2px solid var(--color-primario); font-weight: 600; }

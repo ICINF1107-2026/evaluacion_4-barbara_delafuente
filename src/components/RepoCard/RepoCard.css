@@ -1,0 +1,4 @@
+.repo-card { background: var(--color-tarjeta); padding: 1rem; border-radius: 0.6rem; }
+.repo-card__title { margin: 0 0 0.5rem; overflow-wrap: anywhere; }
+.repo-card__meta { display: flex; justify-content: space-between; margin: 0.5rem 0; }
+.repo-card__link { font-weight: 600; }
